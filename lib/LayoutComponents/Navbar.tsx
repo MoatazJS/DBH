@@ -42,7 +42,7 @@ export default function Navbar() {
         {/* Burger button */}
         <button
           onClick={() => setOpen(!open)}
-          className="text-white text-3xl"
+          className="text-[#C86EFC] text-3xl"
           aria-label="Toggle menu"
         >
           ☰
