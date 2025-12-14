@@ -3,7 +3,7 @@ import React from "react";
 export default function IntroSection() {
   return (
     <>
-      <section className="min-h-screen bg-black px-10 flex justify-center items-center">
+      <section className="min-h-screen bg-black px-14 flex justify-center items-center">
         <div className="flex flex-col gap-8 justify-start w-1/2">
           <h1 className="text-6xl text-gray-200 font-extrabold">
             WE MAKE{" "}
@@ -30,7 +30,7 @@ export default function IntroSection() {
             stay with you.
           </p>
         </div>
-        <div className="w-1/2 bg-white">tatda</div>
+        <div className="w-1/2 bg-white text-center">Photo place holder.</div>
       </section>
     </>
   );

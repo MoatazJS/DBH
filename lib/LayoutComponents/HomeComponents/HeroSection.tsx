@@ -6,7 +6,10 @@ export default function HeroSection() {
     <>
       <main className="min-h-screen bg-black flex flex-col gap-4 md:gap-6">
         <div className="flex items-center justify-center">
-          <Badge variant="secondary" className="bg-[#0D0D0D] text-[#723392] ">
+          <Badge
+            variant="secondary"
+            className="bg-[#0D0D0D] text-indigo-600 text-sm border border-gray-800"
+          >
             Creative Advertising Agency
           </Badge>
         </div>
