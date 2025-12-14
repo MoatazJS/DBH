@@ -7,9 +7,9 @@ export default function Navbar() {
   return (
     <>
       {/* Desktop navbar */}
-      <nav className="bg-black hidden md:flex justify-between items-center h-32">
+      <nav className="bg-black hidden md:flex justify-between items-center h-28 px-6">
         <div>
-          <h1 className="text-white font-bold text-2xl pl-9">
+          <h1 className="text-white font-extrabold text-2xl pl-9">
             DBH<span className="text-[#C86EFC]">.</span>
           </h1>
         </div>
